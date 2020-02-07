@@ -1,0 +1,13 @@
+#element {
+    color: red;
+}
+.forclass {
+    background-color: aqua;
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+    color: yellow;
+}
+a {
+    text-decoration: none;
+}
