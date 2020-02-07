@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS FLoats</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <style>
+            .page {
+                text-align: center;
+                overflow: hidden;
+            }
+            .menu {
+                height: auto;
+                background-color: black;
+                border: 1px solid;
+                width: 100%;
+                margin: auto;
+                float: left;
+            }
+            .content {
+                height: auto;
+                width: 80%;
+                background-color: yellow;
+                float: left;
+                border: 1px solid;
+                margin: auto;
+            }
+            .sidebar {
+                width: 19.7%;
+                float: right;
+                height: 447px;
+                background-color: bisque;
+                border: 1px solid;
+            }
+            .footer {
+                clear: both;
+                height: auto;
+                width: 100%;
+                background-color: black;
+                border: 1px solid;
+                margin: auto;
+                float: left;
+            }
+            .clearfix {
+                clear: both;
+            }
+            .col{
+                border: 1px solid;
+                margin: 1%;
+                height:200px;
+                width:31%;
+                text-align: center;
+                float:left;
+                font-weight: bolder;
+                text-align: center;
+            }            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="page">
+            <div class="menu">
+                <nav>
+                    <span style="color: red; font-size: 40px;">JUSTDIAL</span>
+                    <input type="search" placeholder="what?Ex.Computer">
+                    <a href="/login/">Login</a>
+                    <a href="/signup/">Signup</a>
+                </nav>
+            </div>
+        </header>
+            <section>
+                <div class="content">
+                    <div class="col" style="background-image: url(C:/Users/anupa/Desktop/Cascading-Style-Sheets/icons/gadgets.jpg);">
+                        <h3>Shop Online</h3>
+                        <p>Laptops, Televisions, Washers, Camera</p>
+                    </div>
+                        <div class="col" style="background-image: url(C:/Users/anupa/Desktop/Cascading-Style-Sheets/icons/restaurants.jpg);">
+                        <h3>Restaurants</h3>
+                    <p>Dining, Lounge Bar, Pizza</p>
+                    </div>
+                    <div class="col" style="background-image: url(C:/Users/anupa/Desktop/Cascading-Style-Sheets/icons/travel.jpg);">
+                        <h3>Travel</h3>
+                        <p>Flights, Hotels, Cruises</p>
+                    </div>
+                    <div class="col" style="background-image: url(C:/Users/anupa/Desktop/Cascading-Style-Sheets/icons/medical.jpg);">
+                        <h3>Medical</h3>
+                        <p>Doctors, Hospitals</p>
+                    </div>
+                    <div class="col" style="background-image: url(C:/Users/anupa/Desktop/Cascading-Style-Sheets/icons/nightlife.jpg);">
+                        <h3>Night Life</h3>
+                        <p>Lounges, Bar, Pubs</p>
+                    </div>
+                    <div class="col" style="background-image: url(C:/Users/anupa/Desktop/Cascading-Style-Sheets/icons/grocery.jpg);">
+                        <h3>Daily Needs</h3>
+                        <p>Grocery, Pharmacy</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </section>
+            <aside>
+                <div class="sidebar" style="background-image: url(C:/Users/anupa/Desktop/Cascading-Style-Sheets/icons/deals.png);">
+                    <h2>DEALS</h2>
+                    <p>register and get 25$ cashback</p>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+            <footer>
+                <div class="footer">
+                    <p style="color: white;size: 10px; text-align: justify;">Calgary /Edmonton /Hamilton /London /Mississauga /Montreal /Ottawa /Quebec /Richmond /Saskatoon /Surrey /Toronto /Vancouver /Victoria /Winnipeg /White pages</p>
+                    <p style="color: white;size: 10px; text-align: justify;">Copyrights 2008-2018. All Rights Reserved. Privacy | Terms</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
